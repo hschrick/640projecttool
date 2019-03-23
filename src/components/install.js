@@ -1,31 +1,24 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
+const words = ['programming', 'outdoors', 'creating small ventures', 'learning from failure'];
+
+var ReactRotatingText = require('react-rotating-text');
 
 class Install extends Component {
   render(){
     return(
-      <div>
-          <div className="contact-body">
-        <Grid className="contact-grid">
-          <Cell col={6}>
-          <h3 className="aboutme-side">Hello! my name is Harris Schrick.<br/>
-              <br/>
-              This website is a place for me to update about work that I am doing inside and outside of class.<br/>
-              Feel free to look around and contact me at any time I will reply within one hour!</h3>
-          </Cell>
-          <Cell col={6} className="skills-side">
-            <h3 className="skills-list"><center>skills</center></h3>
-            <h4 className="typistfont"><center><span style={{color: '#FFD700' }}>Experienced</span>   <span style={{color: '#98FB98' }}>Skilled</span></center></h4>
-            <hr style={{borderTop: '1.5px dashed hotpink', width: '100%'}}></hr>
-            <br/>
-            <h4 className="typistfont"><center><span style={{color: '#98FB98' }}>C#</span>   <span style={{color: '#98FB98' }}>C/C++</span> <span style={{color: '#98FB98' }}>objective-C</span></center></h4>
-            <h4 className="typistfont"><center><span style={{color: '#98FB98' }}>React</span>   <span style={{color: '#98FB98' }}>JavaScript</span> <span style={{color: '#98FB98' }}>HTML/CSS</span></center></h4>
-            <h4 className="typistfont"><center><span style={{color: '#98FB98' }}>Java</span>   <span style={{color: '#98FB98' }}>JSCanvas</span> <span style={{color: '#FFD700' }}>SML</span></center></h4>
-            <h4 className="typistfont"><center><span style={{color: '#FFD700' }}>Swift</span>   <span style={{color: '#FFD700' }}>Prologue</span> <span style={{color: '#FFD700' }}>Assembly</span></center></h4>
-            <h4 className="typistfont"><center><span style={{color: '#FFD700' }}>SQL</span>   <span style={{color: '#98FB98' }}>ios/Mobile</span> <span style={{color: '#98FB98' }}>Web-Dev</span></center></h4>
-          </Cell>
-        </Grid>
-      </div>
+      <div className="install-page">
+      <h1 className="install-font"><ReactRotatingText style={{color:"hotpink"}}items={['Step 1:']}/>To Install Selenium simply click the IDE link on the website.</h1>
+      <img src="https://i.imgur.com/eWNsRwC.jpg" style={{height: '400px', width: '300px', marginLeft: '100px', marginTop: '1px'}}/>
+      <h1 className="install-font"><ReactRotatingText style={{color:"hotpink"}}items={['Step 2:']}/>Select which browser you would like to run the Selenium extension on.</h1>
+      <img src="https://i.imgur.com/tnfg1sW.jpg" style={{height: '200px', width: '500px', marginLeft: '100px', marginTop: '1px'}}/>
+      <h1 className="install-font"><ReactRotatingText style={{color:"hotpink"}}items={['Step 3:']}/>Once in the chrome store just click add to Chrome and add the extension on the popup.</h1>
+      <img src="https://i.imgur.com/BZ4zLzO.jpg" style={{height: '170px', width: '530px', marginLeft: '100px', marginTop: '1px'}}/>
+      <img src="https://i.imgur.com/Vhwk3SV.jpg" style={{height: '275px', width: '500px', marginLeft: '100px', marginTop: '1px'}}/>
+      <h1 className="install-font"><ReactRotatingText style={{color:"hotpink"}}items={['Step 4:']}/>Open the Selenium icon at the top right of your Chrome browser.</h1>
+      <img src="https://i.imgur.com/DTTwRvT.jpg" style={{height: '50px', width: '125px', marginLeft: '100px', marginTop: '1px'}}/>
+      <h1 className="install-font"><ReactRotatingText style={{color:"hotpink"}}items={['Step 5:']}/>Select on either creating a new project, or begin recording an existing project.</h1>
+      <img src="https://i.imgur.com/XFp0QLJ.jpg" style={{height: '230px', width: '340px', marginLeft: '100px', marginTop: '1px'}}/>
       </div>
     )
   }

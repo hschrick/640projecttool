@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="big-content">
     <Layout>
-        <Header title="Appium Tutorial" scroll>
+        <Header title="Selenium Tutorial" scroll>
             <Navigation>
                 <Link className="header-links" to="/">Home</Link>
                 <Link className="header-links" to="/install">Install</Link>

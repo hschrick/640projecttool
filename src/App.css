@@ -99,6 +99,15 @@ hidden-header-links{
   color: red !important;
 }
 
+/*install page*/
+.install-page{
+  color: white;
+}
+.install-font{
+  font-family: monospace;
+  font-size: 20px;
+}
+
 
 /*end of header section*/
 .aboutme-side{
