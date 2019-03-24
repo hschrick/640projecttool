@@ -108,6 +108,16 @@ hidden-header-links{
   font-size: 20px;
 }
 
+/*case pages*/
+.basecase-page{
+  color: white;
+}
+.baseexplanation{
+  font-family: monospace;
+  font-size: 18px;
+  color: gold;
+}
+
 
 /*end of header section*/
 .aboutme-side{
